@@ -36,6 +36,12 @@
     font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;
     color:var(--accent);margin-bottom:22px;
   }
+  .avatar{
+    width:120px;height:120px;border-radius:50%;
+    object-fit:cover;margin-bottom:28px;
+    border:2px solid var(--accent);
+    box-shadow:0 0 0 6px var(--accent-dim), 0 10px 40px rgba(0,0,0,.4);
+  }
   h1{
     font-family:'Fraunces',serif;
     font-weight:500;
@@ -127,6 +133,7 @@
 
 <header>
   <div class="wrap">
+    <img class="avatar" src="profile.jpg" alt="Athanasios Papaioannou">
     <p class="eyebrow">Revenue Management · Berlin</p>
     <h1>Athanasios<br>Papaioannou</h1>
     <p class="tagline">I turn market data into revenue decisions — and the results show up on the scoreboard.</p>
